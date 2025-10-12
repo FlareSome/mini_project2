@@ -1,3 +1,3 @@
-# Simple StopWatch program.
+# Simple Calculator program.
 
 ## Using HTML, CSS, JavaScript
