@@ -8,3 +8,7 @@
 ## Number_Based_Projects
 
 1. Calculator
+
+## Games_Based_Projects
+
+1. Rock-Paper-Scissors
