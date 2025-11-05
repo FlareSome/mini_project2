@@ -12,3 +12,7 @@
 ## Games_Based_Projects
 
 1. Rock-Paper-Scissors
+
+## Image_Based_Projects
+
+1. Image-Slider
