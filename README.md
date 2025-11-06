@@ -12,6 +12,7 @@
 ## Games_Based_Projects
 
 1. Rock-Paper-Scissors
+2. Pokemon-Sprite
 
 ## Image_Based_Projects
 

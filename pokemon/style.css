@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffcc70, #ff9a9e);
+}
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #ff7676;
+  border-radius: 8px;
+  outline: none;
+  width: 220px;
+  transition: all 0.2s ease-in-out;
+}
+input[type="text"]:focus {
+  border-color: #ff4747;
+  box-shadow: 0 0 8px rgba(255, 120, 120, 0.6);
+}
+button {
+  margin-top: 12px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  background-color: #ff7676;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #ff4747;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 71, 71, 0.4);
+}
+button:active {
+  transform: scale(0.97);
+}
+img#pokemonSprite {
+  margin-top: 25px;
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  image-rendering: auto;
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.25));
+  animation: fadeIn 0.6s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (max-width: 480px) {
+  input[type="text"] {
+    width: 180px;
+  }
+  img#pokemonSprite {
+    width: 150px;
+    height: 150px;
+  }
+}
